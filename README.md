@@ -24,7 +24,8 @@ La extensión está en desarrollo. Esta página presenta el concepto; los sitios
 - Recorrido con scroll: cada paso cambia la pantalla fija de la derecha.
 - Diagrama del flujo interno: caché Redis, rasgos de la URL, tres modelos base y meta-modelo.
 - Galería del popup (historial, primer uso, estado, filtrar, borrar) y pantallas de administración (métricas, política por dominio, caché).
-- Privacidad: qué se guarda (hash y dominio) y qué no, con cálculo del hash en el navegador.
+- Privacidad: qué se guarda (hash y dominio) y qué no, con cálculo del hash en el navegador, y enlace a la política completa.
+- `privacy.html`: política de privacidad independiente en español e inglés (qué se envía, qué se guarda, la cuenta y los derechos), con el mismo tema y selector ES / EN que la landing.
 - Metas de validación, origen del nombre y preguntas frecuentes.
 
 ## Idiomas y temas
@@ -37,6 +38,7 @@ La extensión está en desarrollo. Esta página presenta el concepto; los sitios
 ```
 .
 ├── index.html              # Página completa (HTML, CSS y JS sin dependencias)
+├── privacy.html            # Política de privacidad (es/en), URL pública para la ficha de Chrome Web Store
 ├── assets/
 │   ├── logo-sereno.svg     # Logo oficial, exportado desde Figma
 │   └── screens/            # Pantallas de los wireframes de Figma (PNG)
@@ -56,6 +58,8 @@ y entrar a `http://localhost:8000`.
 ## Publicación
 
 Se publica con GitHub Pages desde la rama `main`, carpeta raíz. Cada push a `main` actualiza el sitio.
+
+URL pública de la política de privacidad (campo de la ficha de Chrome Web Store): `https://sereno-phishing.github.io/sereno-landing/privacy.html`.
 
 ## Autores
 

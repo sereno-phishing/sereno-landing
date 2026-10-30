@@ -307,6 +307,7 @@ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr auto;gap:40px;align-it
 .thesis{margin-top:16px;color:var(--mute);font-size:.95rem;max-width:46ch}
 footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;color:var(--mute);font-size:.92rem}
 footer ul strong{color:var(--chalk);font-weight:600}
+.foot-links{display:grid;gap:10px;justify-items:start}
 .repo{font-size:.92rem;color:var(--mute);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
 
 /* Hover styles only for real pointers, so taps on touch screens don't leave them stuck */
@@ -576,6 +577,7 @@ footer ul strong{color:var(--chalk);font-weight:600}
       <h2 data-i18n="priv.title">Sereno no guarda tus enlaces.</h2>
       <p class="body-copy" data-i18n="priv.p">El servidor analiza la dirección para dar el veredicto, pero en la base de datos solo queda una huella (hash) y el dominio. Tampoco lee el contenido de las páginas que visitas.</p>
       <p class="law" data-i18n="priv.law">Diseñado según la Ley N.° 29733, Ley de Protección de Datos Personales del Perú.</p>
+      <p><a class="repo" href="privacy.html" data-i18n="priv.more">Ver la política completa</a></p>
     </div>
     <div class="ledger">
       <div class="field">
@@ -668,7 +670,10 @@ footer ul strong{color:var(--chalk);font-weight:600}
       <li data-i18n="foot.advisor">Asesora: Rosa Andrea Félix Corrales</li>
       <li>Universidad Peruana de Ciencias Aplicadas</li>
     </ul>
-    <a class="repo" href="https://github.com/sereno-phishing/sereno-landing" data-i18n="foot.repo">Código en GitHub</a>
+    <div class="foot-links">
+      <a class="repo" href="privacy.html" data-i18n="foot.privacy">Política de privacidad</a>
+      <a class="repo" href="https://github.com/sereno-phishing/sereno-landing" data-i18n="foot.repo">Código en GitHub</a>
+    </div>
   </div>
 </footer>
 
@@ -715,6 +720,7 @@ footer ul strong{color:var(--chalk);font-weight:600}
     "priv.title":"Sereno doesn't store your links.",
     "priv.p":"The server reads the address to give a verdict, but the database only keeps a fingerprint (hash) and the domain. Sereno doesn't read the content of the pages you visit either.",
     "priv.law":"Designed around Peru's Personal Data Protection Law (Ley N.° 29733).",
+    "priv.more":"Read the full policy","foot.privacy":"Privacy policy",
     "priv.label":"Try any address","priv.help":"Everything is computed in your browser. Nothing is sent.",
     "priv.keep":"Stored","priv.hash":"Example fingerprint (SHA-256)","priv.domain":"Domain",
     "priv.drop":"Not stored","priv.path":"Path","priv.query":"Parameters","priv.content":"Page content","priv.contentv":"forms, text, passwords",
