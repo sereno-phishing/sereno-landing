@@ -65,5 +65,3 @@ URL pública de la política de privacidad (campo de la ficha de Chrome Web Stor
 
 - Andrés Torres García
 - Sebastián Lobato Pozo
-
-Asesora: Rosa Andrea Félix Corrales.
