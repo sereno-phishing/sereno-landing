@@ -20,7 +20,7 @@ La extensión está en desarrollo. Esta página presenta el concepto; los sitios
 ## Contenido de la página
 
 - Hero con las pantallas reales de la extensión (wireframes de Figma) en secuencia: evaluación pendiente, sitio seguro, advertencia y detalle del veredicto.
-- Comparación a escala entre la vida media de una URL de phishing (5.46 h) y el tiempo de inclusión en listas negras (4.5 días), según Lee et al. (2025).
+- Comparación a escala entre la mediana de vida de una URL de phishing (5.46 h) y el tiempo de inclusión en listas negras (4.5 días), según Lee et al. (2025).
 - Recorrido con scroll: cada paso cambia la pantalla fija de la derecha.
 - Diagrama del flujo interno: caché Redis, rasgos de la URL, tres modelos base y meta-modelo.
 - Galería del popup (historial, primer uso, estado, filtrar, borrar) y pantallas de administración (métricas, política por dominio, caché).
